@@ -40,7 +40,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@main
 
     - name: Initialization environment
       env:
@@ -82,7 +82,7 @@ jobs:
         make defconfig
 
     - name: SSH connection to Actions
-      uses: P3TERX/debugger-action@master
+      uses: P3TERX/debugger-action@main
       if: env.SSH_ACTIONS == 'true'
 
     - name: Download package
