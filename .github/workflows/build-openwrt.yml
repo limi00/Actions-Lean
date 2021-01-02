@@ -25,7 +25,7 @@ on:
 env:
   #REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_URL: https://github.com/cappiewu/openwrt-k2.git
-  REPO_BRANCH: master
+  REPO_BRANCH: psg1218
   CONFIG_FILE: .config
   DIY_SH: diy.sh
   FREE_UP_DISK: false
